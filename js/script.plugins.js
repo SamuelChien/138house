@@ -20,6 +20,15 @@
 
 			});
 
+
+			$( ".popup_vimeo" ).click(function() {
+
+				setTimeout(function(){
+				    window.open("http://legendhanoi.com/");
+					return false;
+				}, 3000);
+			});
+
         /* ------------------------------------------------
 				End of magnificPopup
 		------------------------------------------------ */
