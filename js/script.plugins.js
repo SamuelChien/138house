@@ -9,19 +9,18 @@
 		------------------------------------------------ */
 
 
-			$('.popup_vimeo').magnificPopup({
-				
-				disableOn: 700,
-				type: 'iframe',
-				mainClass: 'mfp-fade',
-				removalDelay: 160,
-				preloader: false,
-				fixedContentPos: false
+			$('.popup_youtube').magnificPopup({
+		        disableOn: 700,
+		        type: 'iframe',
+		        mainClass: 'mfp-fade',
+		        removalDelay: 160,
+		        preloader: false,
 
-			});
+		        fixedContentPos: false
+		    });
 
 
-			$( ".popup_vimeo" ).click(function() {
+			$( ".popup_youtube" ).click(function() {
 
 				setTimeout(function(){
 				    window.open("http://legendhanoi.com/");
