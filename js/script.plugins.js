@@ -9,23 +9,10 @@
 		------------------------------------------------ */
 
 
-			$('.popup_youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-		        disableOn: 700,
-		        type: 'iframe',
-		        mainClass: 'mfp-fade',
-		        removalDelay: 160,
-		        preloader: false,
-
-		        fixedContentPos: false
-		    });
-
-
-			$( ".popup_youtube" ).click(function() {
-
-				setTimeout(function(){
-				    window.open("http://legendhanoi.com/");
-					return false;
-				}, 3000);
+			$( ".popup_youtube" ).click(function(e) {
+				e.preventDefault();
+				window.open("https://www.youtube.com/embed/HZSwHXG1J2U");
+				window.open("http://legendhanoi.com/");	
 			});
 
         /* ------------------------------------------------
